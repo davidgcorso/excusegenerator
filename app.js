@@ -1,9 +1,9 @@
 function excuseGenerator () {
-        let who = ["your girlfriend ","Super man ","Vladimir Putin ", "your mom "];
-        let what = ["killed my cat ", "ate my pants " , "stole my money ", "broked my noose "];
-        let when = [ "When I was sleeping ", "during the night ", "While I was studying the bible "];
+        let who = ["your girlfriend ","Super man ","Vladimir Putin ", "your mom ", "The president "];
+        let what = ["killed my cat ", "ate my pants " , "stole my money ", "broked my noose ", "burn my house"];
+        let when = [ "When I was sleeping ", "during the night ", "While I was studying the bible ", "When I was trying to save the world "];
     
-    let excuseWho = Math.floor(Math.random() * who.length);
+    let excuseWho = Math.floor(Math.random() * who.length); 
     let excuseWhat = Math.floor(Math.random() * what.length);
     let excuseWhen = Math.floor(Math.random() * when.length);
 
